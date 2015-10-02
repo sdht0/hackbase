@@ -16,12 +16,12 @@ include 'config.php';
             <div class='container'>
                 <ul class="nav navbar-nav">
                     <li><a href="<?php echo SITE_URL; ?>">Home</a></li>
-                    <li><a href="<?php echo SITE_URL; ?>/rules.php">Rules</a></li>
+                    <li><a href="<?php echo SITE_URL; ?>/rules.php">The Quest</a></li>
                     <li><a href="<?php echo SITE_URL; ?>/leaderboard.php">Leader Board</a></li>
                 </ul>
                 <?php if (isset($_SESSION['loggedin'])) { ?>
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a><b>Score:</b> $<?php echo $_SESSION['team']['score']; ?></a></li>
+                        <li><a><b>Score:</b> <?php echo $_SESSION['team']['score']; ?></a></li>
                         <li><a href="<?php echo SITE_URL . "/process.php?logoff"; ?>">Logout</a></li>
                     </ul>
                 <?php } ?>
@@ -48,7 +48,7 @@ include 'config.php';
                                     <?php
                                     $users = DB::findAllFromQuery("select * from users where access=1 order by level desc, score desc");
                                     foreach ($users as $user) {
-                                        echo "<tr><td>$user[teamname]</td><td>$user[level]</td><td>$$user[score]</td></tr>";
+                                        echo "<tr><td>$user[teamname]</td><td>$user[level]</td><td>$user[score]</td></tr>";
                                     }
                                     ?>
                         </table>

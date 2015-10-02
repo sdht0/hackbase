@@ -16,12 +16,12 @@ include 'config.php';
       <div class='container'>
         <ul class="nav navbar-nav">
           <li><a href="<?php echo SITE_URL; ?>">Home</a></li>
-          <li><a href="<?php echo SITE_URL; ?>/rules.php">Rules</a></li>
+          <li><a href="<?php echo SITE_URL; ?>/rules.php">The Quest</a></li>
           <li><a href="<?php echo SITE_URL; ?>/leaderboard.php">Leader Board</a></li>
         </ul>
         <?php if (isset($_SESSION['loggedin'])) { ?>
           <ul class="nav navbar-nav navbar-right">
-            <li><a><b>Balance:</b> $<?php echo $_SESSION['team']['score']; ?></a></li>
+            <li><a><b>Balance:</b> <?php echo $_SESSION['team']['score']; ?></a></li>
             <li><a href="<?php echo SITE_URL . "/process.php?logoff"; ?>">Logout</a></li>
           </ul>
         <?php } ?>
@@ -43,9 +43,6 @@ include 'config.php';
         <div class="wrap-box" >
           <h2>Rules</h2>
           <div style="padding:20px">
-            <h3>Level 0</h3>
-            <p>Rapid fire MCQ questions to be answered in 15 minutes.</p>
-            <h3>Level 1+</h3>
             <p>Our story starts with the evil overlord Mauron trying to take over the World (again). But he has has a different stategy this time.
               Instead of going on an all out attack, he has decided to search for the "Answer to Life, Universe and Everything", a legendary
               piece of knowlege said to give its acquirer unprecedented power.</p><p>

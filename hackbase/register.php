@@ -16,12 +16,12 @@ include 'config.php';
             <div class='container'>
                 <ul class="nav navbar-nav">
                     <li><a href="<?php echo SITE_URL; ?>">Home</a></li>
-                    <li><a href="<?php echo SITE_URL; ?>/rules.php">Rules</a></li>
+                    <li><a href="<?php echo SITE_URL; ?>/rules.php">The Quest</a></li>
                     <li><a href="<?php echo SITE_URL; ?>/leaderboard.php">Leader Board</a></li>
                 </ul>
                 <?php if (isset($_SESSION['loggedin'])) { ?>
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a><b>Score:</b> $<?php echo $_SESSION['team']['score']; ?></a></li>
+                        <li><a><b>Score:</b> <?php echo $_SESSION['team']['score']; ?></a></li>
                         <li><a href="<?php echo SITE_URL . "/process.php?logoff"; ?>">Logout</a></li>
                     </ul>
                 <?php } ?>
