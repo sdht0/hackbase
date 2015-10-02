@@ -1,0 +1,3 @@
+export HISTFILESIZE=0
+export HISTSIZE=7
+unset HISTFILE

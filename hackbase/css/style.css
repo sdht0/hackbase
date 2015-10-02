@@ -1,0 +1,18 @@
+body{
+    padding-top: 70px;
+    background: #eee;
+    padding-bottom: 50px;
+}
+.wrap-box{
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #777;
+    padding-bottom: 10px;
+}
+.wrap-box h2{
+    background: #428bca;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px 5px 0 0;
+}

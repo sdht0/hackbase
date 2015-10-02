@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type='text/javascript'>
+            $(document).ready(function() {
+                var check_connectivity = {
+                    is_internet_connected: function() {
+                        return $.ajax({
+                            url: "http://graph.facebook.com/pushkar8723",
+                            dataType: 'jsonp',
+                            cache: false,
+                            timeout: 1000
+                        });
+                    }
+                };
+                check_connectivity.is_internet_connected().done(function(data) {
+                    alert((eval(data))['name']);
+                }).fail(function(jqXHR, textStatus, errorThrown) {
+                    alert("nonopapaji");
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div>TODO write content</div>
+    </body>
+</html>
