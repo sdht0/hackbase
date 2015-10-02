@@ -45,18 +45,15 @@ include 'config.php';
           <div style="padding:20px">
             <p>Our story starts with the evil overlord Mauron trying to take over the World (again). But he has has a different stategy this time.
               Instead of going on an all out attack, he has decided to search for the "Answer to Life, Universe and Everything", a legendary
-              piece of knowlege said to give its acquirer unprecedented power.</p><p>
+              piece of knowlege said to give its owner unprecedented power.</p><p>
 
-              The Answer had been safely hidden away in the secret base of the World Hackers Association. Mauron attacked the base, and
-              killed all but one of the seven Hackers entrusted with the Secret to the Answer's position. He has captured the remaining Hacker
-              and intends to make him speak out the Secret by any means.</p><p>
+              The Answer had been safely stowed away in a secret base of the World Hackers Legion, and only a secret group of seven top Hackers knew the its location. However, by means of some unknown dark magic, Mauron was able to find and kill six of the Hackers and make the seventh Hacker a prisoner in his Evil Lands, where he intends to make him speak out the location of the Answer by any means.</p><p>
 
-              The Association is sure that the Hacker will prefer to die before revealing anything. However, Mauron has many evil tools, and may eventually
-              be successful in making him talk. So the Association has decided that its safest to retrieve the Answer and then destroy the base.
+              While the Hacker can be trusted to protect the Answer with his life, Mauron has many evil tools, and may eventually be successful in gaining some information. So the Legion has decided that the safest path would be to retrieve the Answer and destroy the base before Mauron can make a move.
             </p><p>
-              Thus, the mission to retrieve the Answer, and move it to safety has been entrusted to you. Will you be able to manage it?
+              The mission to retrieve the Answer safely has now been entrusted to you. Are you worthy enough for the quest?
             </p><p>
-              What you know about the Secret:
+            Information relevant to your quest:
             <ul>
               <li> There are n < 20 levels protecting the Answer, at the end of which the Answer lies.</li><li>
                 You have only 03:00 hrs to complete your mission and escape, after which the base will be destroyed.</li><li>
