@@ -57,6 +57,7 @@ include 'config.php';
             <ul>
               <li> There are n < 20 levels protecting the Answer, at the end of which the Answer lies.</li><li>
                 You have only 03:00 hrs to complete your mission and escape, after which the base will be destroyed.</li><li>
+                Use the internet for tools and hints.</li><li>
                 Look for the clues everywhere (code, comments, cookies, headers), and keep them in mind. Clues in one level may come handy in later levels.</li><li>
                 Be sure to find out what the servers are for. There may be hidden ports and services running.</li></p>
             </ul> </div>  </div>
