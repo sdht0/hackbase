@@ -1,4 +1,4 @@
-from sdht/hackbase_internal:common
+from sdht/hackbase:common
 MAINTAINER sdht
 
 ADD http /var/www/html/
