@@ -21,6 +21,6 @@ Note that this will download docker binaries from the registry. Alternatively, y
 
 Feedback
 --------
-Don't judge this too harshly. I completed it within a self imposed time constraint and motivation which comes from [last minute panic](http://www.gocomics.com/calvinandhobbes/2012/05/24).
+Don't judge this too harshly. I completed it within a self imposed time constraint and motivation which comes from [last minute panic](http://www.gocomics.com/calvinandhobbes/2012/05/24). At the same time, I feel it ended up being quite good :)
 
 For any improvements or comments, lets [discuss in Issues](https://github.com/siddharthasahu/hackbase/issues).
