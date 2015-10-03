@@ -1,8 +1,8 @@
 #!/bin/bash
 
 
-printf "ls\nls -la\nmap *\nping $(ping -c1 server3 | grep data | cut -f2 -d'(' | cut -d ')' -f1)\n" > /home/eyeofmauron/.bash_history && \
-chmod -R ugo+r /home/eyeofmauron/
+printf "unzip\nstrip\ntouch\nfinger $(ping -c1 server3 | grep data | cut -f2 -d'(' | cut -d ')' -f1)\ngrep\nmount\nfsck\nmore\nyes\nfsck\nfsck\numount\nsleep\n" > /home/eyeofmauron/.bash_history && \
+chmod -R ugo+rx /home/eyeofmauron/
 
 service vsftpd start
 service sshd start

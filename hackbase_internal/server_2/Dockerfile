@@ -4,11 +4,11 @@ MAINTAINER sdht
 RUN yum -y install vsftpd openssh-server && \
     rm -rf /var/ftp/pub && \
     echo "Will you remain a noob, or will you surpass yourself... that is the question" > /opt/banner && \
-    useradd -panonymous -m noobpk && \
+    useradd -p $(openssl passwd -1 anonymous) -m noobpk && \
     useradd -pdskjiuh67sdsa -m eyeofmauron && \
     echo "There may have been others" > /home/noobpk/.bash_history && \
-    chown root:root /home/noobpk/.* && \
-    chown root:root /home/eyeofmauron/.* && \
+    chown root:root /home/noobpk/{.b,}* && \
+    chown root:root /home/eyeofmauron/{.b,}* && \
     chmod -w /home/noobpk && \
     chmod -w /home/eyeofmauron
 

@@ -55,7 +55,7 @@ INSERT INTO `level` (`id`, `levelcode`, `url`, `content`, `comment`, `cookie`, `
 (9, 9, 'level9', 'The server hides important secrets. To proceed, we need md5sum value of the file containing the answer to Life, Universe and Everything.', 'pass: you know it already. command: ''md5sum filename''', '', 'fd07572c0ee28c462ff0d2514916b01d', 10, '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
 (10, 10, 'level10', 'The Answer should be hidden in a third hidden server. Find the last octet.', '', 'hint1=look around in the server;hint2=the subject you might have hated in high school', '[IP_SERVER3]', 10, '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
 (11, 11, 'level11', 'There is a ''secret_code'' lying around on the server. Retrieve it and paste it here.', 'uppload.php, think phpinfo()', '', 'bigbang', 10, '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
-(12, 12, 'level12', 'The Answer?', 'you need to hijack the session. find out admin sessionid and send a get request (?id=''sessionid'') to index page of third server', '', 'deepthought', 10, '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(12, 12, 'level12', 'The Answer?', 'you need to hijack the session. find out admin sessionid and send a get request (?id=''sessionid'') to index page of third server', '', '742497d4606d6633bb004f864aa300', 10, '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
 (15, 13, 'level13', 'The Answer was in encypted form. Decrypt it.', 'The secret can be revealed only by ''cfb'' in the words of the Holy 0xBlowfish.', '', 'quadraginta-duo', 10, '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
 (16, 0, 'mcq', '', '', '', '', 10, '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
 (18, 14, 'levelpro', '', '', '', '', 10, '0000-00-00 00:00:00', '0000-00-00 00:00:00');
