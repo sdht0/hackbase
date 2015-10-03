@@ -1,4 +1,8 @@
-#!/bin/bash -x
+#!/bin/bash
+
+
+printf "ls\nls -la\nmap *\nping $(ping -c1 server3 | grep data | cut -f2 -d'(' | cut -d ')' -f1)\n" > /home/eyeofmauron/.bash_history && \
+chmod -R ugo+r /home/eyeofmauron/
 
 service vsftpd start
 service sshd start

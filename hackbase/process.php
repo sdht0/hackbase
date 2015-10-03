@@ -20,16 +20,10 @@ function check($var) {
 DB::insert('log', array('session' => addslashes(print_r($_SESSION, TRUE)), 'request' => addslashes(print_r($_REQUEST, TRUE))));
 
 if (isset($_POST['register'])) {
-    if ($_POST['data']['password'] == $_POST['data']['repassword']) {
-      unset($_POST['data']['repassword']);
-      $_POST['data'] = secure($_POST['data']);
-      DB::insert('users', $_POST['data']);
-      $_SESSION['msg'] = "Registration Successful.";
-      redirectTo(SITE_URL);
-    } else {
-      $_SESSION['msg'] = "Password don't match.";
-      redirectTo(SITE_URL . "/register");
-    }
+    $_POST['data'] = secure($_POST['data']);
+    DB::insert('users', $_POST['data']);
+    $_SESSION['msg'] = "Registration Successful.";
+    redirectTo(SITE_URL);
 } elseif (isset($_POST['login'])) {
   $_POST['data'] = secure($_POST['data']);
   $query = "select * from users where teamname = '" . $_POST['data']['teamname'] . "' and password = '" . $_POST['data']['password'] . "'";

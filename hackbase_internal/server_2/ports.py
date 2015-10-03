@@ -9,7 +9,7 @@ def listenClients(serverSoc):
       print ("Client connected from %s:%s" % clientaddr)
     serverSoc.close()
 
-ip="192.168.102.163"
+ip="0.0.0.0"
 port=[8000,8080,8888,9000,9025]
 
 for i in port:
