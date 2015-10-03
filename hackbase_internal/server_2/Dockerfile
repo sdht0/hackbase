@@ -7,8 +7,8 @@ RUN yum -y install vsftpd openssh-server && \
     useradd -p $(openssl passwd -1 anonymous) -m noobpk && \
     useradd -pdskjiuh67sdsa -m eyeofmauron && \
     echo "There may have been others" > /home/noobpk/.bash_history && \
-    chown root:root /home/noobpk/{.b,}* && \
-    chown root:root /home/eyeofmauron/{.b,}* && \
+    chown root:root /home/noobpk/.b* && \
+    chown root:root /home/eyeofmauron/.b* && \
     chmod -w /home/noobpk && \
     chmod -w /home/eyeofmauron
 
