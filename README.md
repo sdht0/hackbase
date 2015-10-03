@@ -8,13 +8,15 @@ This needs a 4 server setup. Because of the interdependencies and a specific ini
 
 * Make sure docker is setup and the service is running.
 * execute `play.sh` to start the servers.
-* 4 servers will be started and setup one by one. Press CTRL+P+Q to detach each in turn and proceed.
+* 4 servers will be started one by one. Press CTRL+P+Q to detach each in turn and proceed.
 * Link to starting web page will be generated at the end of servers initialization.
-* Open the webpage and register with a name and password. Login and play!
+* Open the webpage and register with a username and password. Login and play!
 
 General advice:
-* Try not to use the setup information, eg number of servers. Don't peek into the solutions. It will be more satisfying when you solve it on your own. And I assure you its not difficult at all.
+* Try not to use the setup information, eg number of servers. Don't peek into the solutions. It will be more satisfying when you solve it on your own.
 * All levels have the appropriate hints. Look in all places. Read the rules carefully on the webapp.
+
+Domain knowledge used: PHP, MySQL, port scanning, HTML and web apps, etc
 
 Have fun!
 
