@@ -12,12 +12,13 @@ This needs a 4 server setup. Because of the interdependencies and a specific ini
 * Link to starting web page will be generated at the end of servers initialization.
 * Open the webpage and register with a name and password. Login and play!
 
-* Try not to use the setup information, eg number of servers. In the contest, such information was not available.
+General advice:
+* Try not to use the setup information, eg number of servers. Don't peek into the solutions. It will be more satisfying when you solve it on your own. And I assure you its not difficult at all.
 * All levels have the appropriate hints. Look in all places. Read the rules carefully on the webapp.
 
 Have fun!
 
-Note that this will download docker binaries from the registry. Alternatively, you can build the Dockerfiles yourself.
+Note: this will download docker image binaries from the registry. Alternatively, you can build the Dockerfiles yourself.
 
 Feedback
 --------
