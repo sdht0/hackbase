@@ -27,3 +27,8 @@ Feedback
 Don't judge this too harshly. I completed it within a self imposed time constraint and motivation which comes from [last minute panic](http://www.gocomics.com/calvinandhobbes/2012/05/24). At the same time, I feel it ended up being quite good :)
 
 For any improvements or comments, lets [discuss in Issues](https://github.com/siddharthasahu/hackbase/issues).
+
+License
+-------
+All code is licensed under [GNU GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html).  
+All content is licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
