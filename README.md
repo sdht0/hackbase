@@ -7,7 +7,17 @@ How to play
 The actual contest had 4 servers running. Because of the interdependencies and a specific initialization sequence, I've dockerized the setup.
 
 * Make sure docker is installed and the service is running.
-* execute `play.sh` to start the servers. 4 servers will be started one by one. Press CTRL+P+Q to detach each in turn and proceed.
+* To download and use the pre-built docker images, execute `play.sh`.  
+$ `cd ~ && wget https://raw.githubusercontent.com/siddharthasahu/hackbase/master/play.sh && bash ./play.sh`
+* If you want to build your own docker images, clone the repo and build all 4 images.  
+$ `git clone https://github.com/siddharthasahu/hackbase.git ~`  
+$ `cd ~/hackbase/common && sudo docker build -t sdht/hackbase:common .`  
+$ `cd ~/hackbase/server_1 && sudo docker build -t sdht/hackbase:server_1 .`  
+$ `cd ~/hackbase/server_2 && sudo docker build -t sdht/hackbase:server_2 .`  
+$ `cd ~/hackbase/server_3 && sudo docker build -t sdht/hackbase:server_3 .`  
+$ `cd ~/hackbase/hackbase && sudo docker build -t sdht/hackbase .`  
+$ `cd ~/hackbase && bash ./play.sh`
+* 4 servers will be started one by one. Press CTRL+P+Q to detach each in turn and proceed.
 * Link to starting web page will be generated at the end of servers initialization.
 * Open the webpage and register with a username and password. Login and play!
 
@@ -18,8 +28,6 @@ General advice:
 Domain knowledge used: PHP, MySQL, port scanning, HTML and web apps, ciphers, etc
 
 Have fun!
-
-Note: this will download docker image binaries from the registry. Alternatively, you can build the Dockerfiles yourself.
 
 Feedback
 --------
